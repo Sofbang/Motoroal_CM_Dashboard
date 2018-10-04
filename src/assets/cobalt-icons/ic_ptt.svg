@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.75;}</style>
+  </defs>
+  <title>ic_ptt</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" x="5" y="13" width="1" height="4"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path
+        d="M17,6V5.5a.45.45,0,0,0-.5-.5H16a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1H10V1A.91.91,0,0,0,9,0,.91.91,0,0,0,8,1V5H7C6.68,5,6,6,6,6L5,7v3l1,1v1H7v6H6v4c0,1,1,1,1,1a1,1,0,0,0,1,1H15a1,1,0,0,0,1-1,1,1,0,0,0,1-1V11l1-1V7ZM15,16H8V15h7Zm0-2H8V13h7Zm0-2H8V11h7Z"/>
+    </g>
+    <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+  </g>
+</svg>

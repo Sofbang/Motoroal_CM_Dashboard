@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.5;}</style>
+  </defs>
+  <title>ic_priority_p1</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path
+        d="M8,13.62h2.28a2.71,2.71,0,0,0,2.42-1,3.65,3.65,0,0,0,1-2.78,3.55,3.55,0,0,0-1-2.74A2.74,2.74,0,0,0,10.28,6H6V18H8ZM8,8H9.89A1.2,1.2,0,0,1,11,8.55a2,2,0,0,1,.53,1.26A2,2,0,0,1,11,11.07c-.27.33-.53.37-1.06.37H8Zm8,10h2V6l-3,.56V8.38h1ZM2,2V22H22V2ZM20.5,20.5H3.5V3.5h17Z"/>
+    </g>
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+  </g>
+</svg>

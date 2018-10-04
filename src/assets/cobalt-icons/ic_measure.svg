@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>ic_measure</title>
+  <polyline
+    points="7 22 7 20 4 20 4 19 7 19 7 17 5 17 5 16 7 16 7 14 4 14 4 13 7 13 7 11 5 11 5 10 7 10 7 8 4 8 4 7 7 7 7 5 5 5 5 4 7 4 7 2 2 2 2 22"/>
+  <polyline
+    points="22 17 20 17 20 19 19 19 19 17 17 17 17 20 16 20 16 17 14 17 14 19 13 19 13 17 11 17 11 20 10 20 10 17 8 17 8 19 7 19 7 17 5 17 5 19 4 19 4 17 2 17 2 22 22 22"/>
+  <rect x="13" y="5" width="3" height="9"/>
+  <rect x="13" y="5" width="3" height="9" transform="translate(5 24) rotate(-90)"/>
+</svg>

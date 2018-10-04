@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_camera</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="14.5" cy="13.5" r="3.5"/>
+      <rect id="_Path_3" data-name="&lt;Path&gt;" x="3" y="4" width="4" height="1"/>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <path
+          d="M21,6H19L18,3H11L10,6H3C1.59,6,1,6.59,1,8V19c0,1.41.59,2,2,2H21c1.41,0,2-.59,2-2V8C23,6.59,22.41,6,21,6ZM7,10H3V8H7Zm7.5,9A5.5,5.5,0,1,1,20,13.5,5.5,5.5,0,0,1,14.5,19Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

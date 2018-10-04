@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-1{opacity:0.75;}</style>
+  </defs>
+  <title>ic_audio_speaker_off</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-2" d="M0,0V24H24V0Z"/>
+    <polygon points="17 2 16 2 11.11 6.89 17 12.78 17 2"/>
+    <polygon
+      points="21.18 19.79 17 15.61 17 15.61 9.39 8 9.39 8 4.21 2.82 2.8 4.23 6.57 8 6.5 8 5 9.5 5 14.5 6.5 16 10 16 16 22 17 22 17 18.43 19.77 21.2 21.18 19.79"/>
+  </g>
+</svg>

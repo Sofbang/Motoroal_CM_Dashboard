@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill-rule:evenodd;}.cls-2{fill:none;opacity:0.5;}</style>
+  </defs>
+  <title>ic_camera_barcode</title>
+  <polygon class="cls-1" points="7 5 7 3 4 3 2 3 2 5 2 19 2 21 4 21 7 21 7 19 4 19 4 5 7 5"/>
+  <rect x="8" y="7" width="2" height="10"/>
+  <rect x="11" y="7" width="2" height="10"/>
+  <rect x="6" y="7" width="1" height="10"/>
+  <rect x="16" y="7" width="2" height="10"/>
+  <rect x="14" y="7" width="1" height="10"/>
+  <polygon class="cls-1" points="17 19 17 21 20 21 22 21 22 19 22 5 22 3 20 3 17 3 17 5 20 5 20 19 17 19"/>
+  <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-2" width="24" height="24"/>
+</svg>

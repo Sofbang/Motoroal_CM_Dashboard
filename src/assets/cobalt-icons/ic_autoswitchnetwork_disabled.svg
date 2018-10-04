@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-2{opacity:0.75;}</style>
+  </defs>
+  <title>ic_autoswitchnetwork_disabled</title>
+  <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+  <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+  <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-2" x="-0.01" y="0.01" width="24" height="24"/>
+  <polygon points="15 6 10 2 10 4 8.22 4 12.35 8.12 15 6"/>
+  <polygon points="2 21 7 21 7 18 5.33 18 2 21"/>
+  <polygon points="10 18 8 18 8 21 12 21 12 16 10 16 10 18"/>
+  <polygon points="15 10.78 17 12.78 17 7.5 15 9.3 15 10.78"/>
+  <polygon points="22 3 18 6.6 18 13.78 22 17.78 22 3"/>
+  <path
+    d="M22.89,21.5,22,20.61h0l-4-4h0l-1-1h0l-2-2h0l-1-1h0L12.39,11h0L10.77,9.38h0L10,8.61h0L9.39,8h0l-4-4h0L4.5,3.11,3.09,4.53,5,6.43V8H6.57L8.2,9.64,4,13l5,4V15h4.56l1,1H13v5h4V18.44l1,1V21h1.56l1.91,1.91ZM9,11v-.57l.57.57Z"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill-rule:evenodd;}.cls-2{fill:none;opacity:0.5;}</style>
+  </defs>
+  <title>ic_zoom</title>
+  <polygon class="cls-1" points="22 2 14.57 2 17.23 4.65 14 7.88 16.12 10 19.35 6.77 22 9.43 22 2"/>
+  <polygon class="cls-1" points="22 22 22 14.57 19.35 17.23 16.12 14 14 16.12 17.23 19.35 14.57 22 22 22"/>
+  <polygon class="cls-1" points="2 22 9.43 22 6.77 19.35 10 16.12 7.88 14 4.65 17.23 2 14.57 2 22"/>
+  <polygon class="cls-1" points="2 2 2 9.43 4.65 6.77 7.88 10 10 7.88 6.77 4.65 9.43 2 2 2"/>
+  <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-2" width="24" height="24"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style>
+  </defs>
+  <title>ic_audio_speaker_low</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M0,0V24H24V0Z"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path class="cls-2" d="M16.87,9.93l-.87.55a4.46,4.46,0,0,1,0,3.12l.88.47A5.89,5.89,0,0,0,16.87,9.93Z"/>
+    </g>
+    <polygon class="cls-2" points="13 2 7 8 3.5 8 2 9.5 2 14.5 3.5 16 7 16 13 22 14 22 14 2 13 2"/>
+  </g>
+</svg>

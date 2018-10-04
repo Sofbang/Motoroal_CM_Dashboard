@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-2{opacity:0.75;}.cls-3{fill-rule:evenodd;}</style>
+  </defs>
+  <title>ic_audio_smartphone</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M0,0V24H24V0Z"/>
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-2" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path class="cls-3"
+            d="M21.09,4.5,20,5.19a18.36,18.36,0,0,1,0,13.62l1.09.69A21.23,21.23,0,0,0,23,12,21.23,21.23,0,0,0,21.09,4.5ZM18.93,7.6l-1.13.65a11.37,11.37,0,0,1,.72,3.84A11.49,11.49,0,0,1,17.8,16l1.08.44A13.1,13.1,0,0,0,20,12,13.14,13.14,0,0,0,18.93,7.6ZM16,10.48a4.46,4.46,0,0,1,0,3.12l.88.47a5.89,5.89,0,0,0,0-4.14Z"/>
+    </g>
+    <path
+      d="M13,1H3A2,2,0,0,0,1,3V21a2,2,0,0,0,2,2H13a2,2,0,0,0,2-2V3A2,2,0,0,0,13,1ZM4,2h8V3H4Zm8,20H4V20h8Zm1-3H3V4H13Z"/>
+  </g>
+</svg>

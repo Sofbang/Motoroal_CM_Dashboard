@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_ptt_alert</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+      <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+      <rect id="_Path_3" data-name="&lt;Path&gt;" x="5" y="13" width="1" height="4"/>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <g id="_Group_4" data-name="&lt;Group&gt;">
+          <path
+            d="M16.84,11.54l-.61,1-.87-.73-.36-.3V12H8V11h6.45l-1-.83-.67-.56.47-.74,1.29-2-2-.91-.93-.44L11.88,5H10V1A.91.91,0,0,0,9,0,.91.91,0,0,0,8,1V5H7C6.68,5,6,6,6,6L5,7v3l1,1v1H7v6H6v4c0,1,1,1,1,1a1,1,0,0,0,1,1H15a1,1,0,0,0,1-1,1,1,0,0,0,1-1V11.29ZM15,16H8V15h7Zm0-2H8V13h7Z"/>
+        </g>
+        <g id="_Group_5" data-name="&lt;Group&gt;">
+          <polygon points="17.92 9.86 17.52 10.48 18 10 18 9.99 17.92 9.86"/>
+        </g>
+      </g>
+    </g>
+    <g id="_Group_6" data-name="&lt;Group&gt;">
+      <g id="_Group_7" data-name="&lt;Group&gt;">
+        <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;"
+              d="M16,6.39,13,5l1-2,2.65,1.29L17,1H19l.48,3.4L22,3l1,2L19.94,6.62l1.81,2.87L19.86,11,17.91,8,16,11,14.1,9.4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

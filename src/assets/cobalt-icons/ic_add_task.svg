@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_add_task</title>
+  <polygon points="20 12 20 9 18 9 18 12 15 12 15 14 18 14 18 17 20 17 20 14 23 14 23 12 20 12"/>
+  <path
+    d="M17,15H14V11h3V3H14V4H6V3H3V22H17V15ZM8,8h7v2H8Zm0,4h4v2H8ZM7,18H5V16H7Zm0-4H5V12H7Zm0-4H5V8H7Zm8,8H8V16h7Z"/>
+  <rect x="7" y="2" width="6" height="1"/>
+  <rect class="cls-1" width="24" height="24"/>
+</svg>

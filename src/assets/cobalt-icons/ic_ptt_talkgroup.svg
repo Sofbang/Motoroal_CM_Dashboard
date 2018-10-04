@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_ptt_talkgroup</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+        <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+      </g>
+    </g>
+    <g id="_Group_4" data-name="&lt;Group&gt;">
+      <g id="_Group_5" data-name="&lt;Group&gt;">
+        <path
+          d="M12,24h7a1,1,0,0,0,1-1,1,1,0,0,0,1-1V11l1-1V7L21,6V5.5a.45.45,0,0,0-.5-.5H20a1,1,0,0,0-1-1H18a1,1,0,0,0-1,1H14V1a.91.91,0,0,0-1-1,.91.91,0,0,0-1,1Zm7-8H13V15h6Zm0-2H13V13h6Zm0-2H13V11h6Z"/>
+      </g>
+    </g>
+    <g id="_Group_6" data-name="&lt;Group&gt;">
+      <rect id="_Path_3" data-name="&lt;Path&gt;" x="2" y="14" width="1" height="3"/>
+      <g id="_Group_7" data-name="&lt;Group&gt;">
+        <path
+          d="M11,8a1,1,0,0,0-1-1H9A1,1,0,0,0,8,8H7V4A.91.91,0,0,0,6,3,.91.91,0,0,0,5,4V8H4C3.68,8,3,9,3,9L2,10v2H3v1H4v5H3v2c0,1,1,1,1,1a1,1,0,0,0,1,1H10a1,1,0,0,0,1-1Zm-1,9H5V16h5Zm0-2H5V14h5Zm0-2H5V12h5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

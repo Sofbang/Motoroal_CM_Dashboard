@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-2{fill:#099a49;}</style>
+  </defs>
+  <title>ic_menu_available</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Path_" data-name="&lt;Path&gt;" class="cls-1"
+          d="M22.47,12.05A10.43,10.43,0,1,1,12,1.62,10.43,10.43,0,0,1,22.47,12.05Z"/>
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-2"
+          d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1ZM9.83,19l-.18-.17-.26.25L4.34,14.32l2.55-2.47,2.82,2.66,8.81-8.35,2.41,2.33Z"/>
+  </g>
+</svg>

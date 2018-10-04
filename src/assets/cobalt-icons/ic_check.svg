@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-1{clip-rule:evenodd;}.cls-3{clip-path:url(#clip-path);}</style>
+    <clipPath id="clip-path">
+      <polygon class="cls-1" points="8.8 15.9 4.6 11.7 3.2 13.1 8.8 18.7 20.8 6.7 19.4 5.3 8.8 15.9"/>
+    </clipPath>
+  </defs>
+  <title>ic_check</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-2" width="24" height="24"/>
+    <g class="cls-3">
+      <rect x="-1.8" y="0.3" width="27.6" height="23.4"/>
+    </g>
+  </g>
+</svg>

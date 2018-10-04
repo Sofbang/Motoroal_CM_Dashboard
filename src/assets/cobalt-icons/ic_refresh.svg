@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style>
+  </defs>
+  <title>ic_refresh</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" class="cls-2"
+            d="M6.42,17.59a7.9,7.9,0,0,1,0-11.18L8.28,8.27l.37-5.58-5.58.37L4.93,4.92a10,10,0,0,0,8.35,17l-.56-2.05A7.87,7.87,0,0,1,6.42,17.59Z"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" class="cls-2"
+            d="M19.07,4.92a10,10,0,0,0-8.35-2.84l.56,2.05a7.9,7.9,0,0,1,6.3,13.46l-1.86-1.86-.37,5.58,5.58-.37-1.86-1.86A10,10,0,0,0,19.07,4.92Z"/>
+    </g>
+  </g>
+</svg>

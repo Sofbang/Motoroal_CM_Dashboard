@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-2{opacity:0.75;}</style>
+  </defs>
+  <title>ic_oobe_smartphone</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M0,0V32H32V0Z"/>
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-2" width="32" height="32"/>
+    <path
+      d="M22.43,2H9.57A2.56,2.56,0,0,0,7,4.55v22.9A2.56,2.56,0,0,0,9.57,30H22.43A2.56,2.56,0,0,0,25,27.45V4.55A2.56,2.56,0,0,0,22.43,2ZM11,3.5H21V5H11Zm10,25H11V26H21ZM22,25H10V6H22Z"/>
+  </g>
+</svg>

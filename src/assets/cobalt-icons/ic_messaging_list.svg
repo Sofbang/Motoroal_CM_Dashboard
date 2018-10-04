@@ -1,0 +1,8 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>ic_messaging_list</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path d="M3,3A1,1,0,0,0,2,4V6A1,1,0,0,0,3,7H19a1,1,0,0,0,1-1V5l2-2Z"/>
+    <path d="M3,10a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V12l2-2Z"/>
+    <path d="M3,17a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V19l2-2Z"/>
+  </g>
+</svg>

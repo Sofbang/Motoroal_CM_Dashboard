@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_save</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" x="11" y="6" width="4" height="3"/>
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;"
+          d="M17.67,3H3V21H21V6.33ZM5,5H16v5H5ZM19,16H5V14.5H19Zm0,3H5V17.5H19Z"/>
+    <g id="_Rectangle_" data-name="&lt;Rectangle&gt;">
+      <rect class="cls-1" width="24" height="24"/>
+    </g>
+  </g>
+</svg>

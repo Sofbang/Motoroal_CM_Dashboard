@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_capture_video</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <polygon points="24 6.19 18 9 18 16 24 18.97 24 6.19"/>
+      </g>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <path d="M3,7V17a1.79,1.79,0,0,0,2,2H17V5H5A1.79,1.79,0,0,0,3,7Z"/>
+      </g>
+      <g id="_Group_5" data-name="&lt;Group&gt;">
+        <path d="M1,6v5H2V6Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

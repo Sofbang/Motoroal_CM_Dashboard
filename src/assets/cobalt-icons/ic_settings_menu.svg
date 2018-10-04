@@ -1,0 +1,7 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>ic_settings_menu</title>
+  <path d="M17,5a2,2,0,0,1,0,4H5A2,2,0,0,1,5,5H17m0-1H5a3,3,0,0,0,0,6H17a3,3,0,0,0,0-6Z"/>
+  <circle cx="17" cy="7" r="5"/>
+  <path d="M7,19a2,2,0,0,1,0-4H19a2,2,0,0,1,0,4H7m0,1H19a3,3,0,0,0,0-6H7a3,3,0,0,0,0,6Z"/>
+  <circle cx="7" cy="17" r="5"/>
+</svg>

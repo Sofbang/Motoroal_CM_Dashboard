@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_ptt_resourcecall</title>
+  <rect id="_Path_" data-name="&lt;Path&gt;" x="3" y="13" width="1" height="4"/>
+  <path
+    d="M14,23a1,1,0,0,0,1-1V20H13V16H6V15h7v1h2V11H13v1H6V11h7V7h2V5.28A.44.44,0,0,0,14.54,5H14a1,1,0,0,0-1-1H12a1,1,0,0,0-1,1H8V1A.91.91,0,0,0,7,0,.91.91,0,0,0,6,1V5H5C4.68,5,4,6,4,6L3,7v3l1,1v1H5v6H4v4c0,1,1,1,1,1a1,1,0,0,0,1,1H13A1,1,0,0,0,14,23ZM6,13h7v1H6Z"/>
+  <polygon id="_Path_2" data-name="&lt;Path&gt;"
+           points="14 9.8 19.2 9.8 17.11 12 18.09 13 22 9 18.09 5 17.11 6 19.2 8.2 14 8.2 14 9.8"/>
+  <polygon id="_Path_3" data-name="&lt;Path&gt;"
+           points="14 18.8 19.2 18.8 17.11 21 18.09 22 22 18 18.09 14 17.11 15 19.2 17.2 14 17.2 14 18.8"/>
+  <rect class="cls-1" width="24" height="24"/>
+</svg>

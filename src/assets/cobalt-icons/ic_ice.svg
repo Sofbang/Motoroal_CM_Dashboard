@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.4;}</style>
+  </defs>
+  <title>ic_ice</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <rect id="_Path_2" data-name="&lt;Path&gt;" x="13" y="13" width="8" height="8"/>
+    <rect id="_Path_3" data-name="&lt;Path&gt;" x="3" y="3" width="8" height="8"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M18,12h2V4H12V6h6Z"/>
+    </g>
+    <g id="_Group_3" data-name="&lt;Group&gt;">
+      <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" d="M6,12H4v8h8V18H6Z"/>
+    </g>
+  </g>
+</svg>

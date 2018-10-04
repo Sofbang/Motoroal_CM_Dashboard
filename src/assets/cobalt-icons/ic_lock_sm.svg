@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_lock_sm</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="12" height="12"/>
+    </g>
+    <path d="M9,5V3A2,2,0,0,0,7,1H5A2,2,0,0,0,3,3V5H2v7h8V5ZM4,3A1,1,0,0,1,5,2H7A1,1,0,0,1,8,3V5H4Z"/>
+  </g>
+</svg>

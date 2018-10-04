@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{fill:#231f20;}</style>
+  </defs>
+  <title>ic_door_open</title>
+  <rect class="cls-1" width="24" height="24"/>
+  <path class="cls-2"
+        d="M15,3V1L3,4V20l12,3V21h5V3ZM11.5,14c-.83,0-1.5-.9-1.5-2s.67-2,1.5-2,1.5.9,1.5,2S12.33,14,11.5,14Zm7,5.5H15V4.5h3.5Z"/>
+</svg>

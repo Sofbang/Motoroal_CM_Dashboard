@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_call_end</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"
+          transform="translate(24 0) rotate(90)"/>
+    <path
+      d="M22.84,9.81C21.22,8.61,16.42,7.15,12,7.15S2.76,8.59,1.16,9.82s-1.28,3.6-.81,6.1c0,.1.27.08.65.08l5.54-.32h0c.36-.05.46-.36.46-.74a.4.4,0,0,0,0-.11H7s0,0,0-.06c-.09-.51,0-.54-.07-1a15.86,15.86,0,0,0-.82-2.39c1-.74,3.06-1.28,5.89-1.28s4.89.54,5.89,1.28a15.86,15.86,0,0,0-.82,2.39c-.09.43,0,.46-.07,1v.06h0a.34.34,0,0,0,0,.1c0,.38.1.69.46.74h0L23,16c.38,0,.64,0,.65-.08C24,13.4,24.09,10.74,22.84,9.81Z"/>
+  </g>
+</svg>

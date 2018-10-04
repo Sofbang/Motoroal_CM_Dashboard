@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{opacity:0.6;}</style>
+  </defs>
+  <title>ic_ptt_error</title>
+  <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;"
+        d="M17.5,0,11,11H24Zm.75,10h-1.5V9h1.5Zm-1.5-2V4h1.5V8Z"/>
+  <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+  <g class="cls-2">
+    <rect id="_Path_2" data-name="&lt;Path&gt;" x="5" y="13" width="1" height="4"/>
+    <path
+      d="M16,23a1,1,0,0,0,1-1V12H8V11H9l2.73-6H10V1A.91.91,0,0,0,9,0,.91.91,0,0,0,8,1V5H7C6.68,5,6,6,6,6L5,7v3l1,1v1H7v6H6v4c0,1,1,1,1,1a1,1,0,0,0,1,1H15A1,1,0,0,0,16,23Zm-1-7H8V15h7Zm0-2H8V13h7Z"/>
+  </g>
+</svg>

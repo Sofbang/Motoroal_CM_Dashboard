@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_copy</title>
+  <rect class="cls-1" width="24" height="24"/>
+  <path d="M20,5H7V22H20ZM11,18H9V16h2Zm0-4H9V12h2Zm0-4H9V8h2Zm1,2h6v1.5H12Zm6,4v1.5H12V16ZM12,9.5V8h6V9.5Z"/>
+  <polygon points="18 2 6 2 4 2 4 4 4 20 6 20 6 4 18 4 18 2"/>
+</svg>

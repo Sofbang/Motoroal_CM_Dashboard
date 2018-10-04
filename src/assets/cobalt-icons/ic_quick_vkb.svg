@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_quick_vkb</title>
+  <path
+    d="M18,2H6A1.83,1.83,0,0,0,4,3.61V9.39A1.83,1.83,0,0,0,6,11H10.8L12,13l1.2-2H18a1.83,1.83,0,0,0,2-1.61V3.61A1.83,1.83,0,0,0,18,2ZM17,8H7V7H17Zm0-2H7V5H17Z"/>
+  <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+  <path d="M16,12l-4,3.5L8.07,12H2V22H22V12Zm1,1h4v1.5H17ZM3,13H7v1.5H3Zm18,7.5H3V19H21Zm0-3H3V16H21Z"/>
+</svg>

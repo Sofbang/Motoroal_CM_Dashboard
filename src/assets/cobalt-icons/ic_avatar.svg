@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_avatar</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;"
+            d="M18.32,18.19a7.09,7.09,0,0,0-.22-1,5.42,5.42,0,0,0-3.85-2.73L12,16.5l-2.25-2S6.54,16.11,6,17.16a8.69,8.69,0,0,0-.22,1c0,.07-.21,1.92-.25,2.81h13C18.46,20.11,18.32,18.26,18.32,18.19Z"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;"
+            d="M12,13a2.91,2.91,0,0,0,2.83-3.07L15,8a2.78,2.78,0,0,0-.21-1.18,1,1,0,0,0-.85-.59C14,5.35,12.7,5,12,5A3,3,0,0,0,9,8l.17,1.9A2.91,2.91,0,0,0,12,13Z"/>
+    </g>
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M2,2V22H22V2ZM20.5,20.5H3.5V3.5h17Z"/>
+  </g>
+</svg>

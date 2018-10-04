@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_ptt_notification</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <rect id="_Path_3" data-name="&lt;Path&gt;" x="5" y="13" width="1" height="4"/>
+    <path
+      d="M16,23a1,1,0,0,0,1-1V13.45c-.35,0-.68.05-1,.05a5.56,5.56,0,0,1-1-.1V14H8V13h5.71a6.87,6.87,0,0,1-1.63-1H8V11h3.06A6.31,6.31,0,0,1,9.5,7,10,10,0,0,1,10,3.89V1A.91.91,0,0,0,9,0,.91.91,0,0,0,8,1V5H7C6.68,5,6,6,6,6L5,7v3l1,1v1H7v6H6v4c0,1,1,1,1,1a1,1,0,0,0,1,1H15A1,1,0,0,0,16,23Zm-1-7H8V15h7Z"/>
+    <path d="M17,4.36c.6,0,1.09-.36,1.09-.81S17.6,2.73,17,2.73s-1.09.36-1.09.82S16.4,4.36,17,4.36Z"/>
+    <path d="M17,0a6,6,0,1,0,6,6A6,6,0,0,0,17,0Zm0,11a5,5,0,1,1,5-5A5,5,0,0,1,17,11Z"/>
+    <polygon points="18 5 17 5 16 5 15 5 15 6 16 6 16 8 15.36 8 15.36 9 16 9 18 9 18.64 9 18.64 8 18 8 18 5"/>
+  </g>
+</svg>

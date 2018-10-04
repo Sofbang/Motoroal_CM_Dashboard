@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.75;}</style>
+  </defs>
+  <title>ic_dialpad</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M2,3V6.5H8V3ZM6,5H4V4H6Z"/>
+    <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" d="M9,3V6.5h6V3Zm4,2H11V4h2Z"/>
+    <path id="_Compound_Path_3" data-name="&lt;Compound Path&gt;" d="M16,3V6.5h6V3Zm4,2H18V4h2Z"/>
+    <path id="_Compound_Path_4" data-name="&lt;Compound Path&gt;" d="M2,8v3.5H8V8Zm4,2H4V9H6Z"/>
+    <path id="_Compound_Path_5" data-name="&lt;Compound Path&gt;" d="M9,8v3.5h6V8Zm4,2H11V9h2Z"/>
+    <path id="_Compound_Path_6" data-name="&lt;Compound Path&gt;" d="M16,8v3.5h6V8Zm4,2H18V9h2Z"/>
+    <path id="_Compound_Path_7" data-name="&lt;Compound Path&gt;" d="M2,13v3.5H8V13Zm4,2H4V14H6Z"/>
+    <path id="_Compound_Path_8" data-name="&lt;Compound Path&gt;" d="M9,13v3.5h6V13Zm4,2H11V14h2Z"/>
+    <path id="_Compound_Path_9" data-name="&lt;Compound Path&gt;" d="M9,18v3.5h6V18Zm4,2H11V19h2Z"/>
+    <path id="_Compound_Path_10" data-name="&lt;Compound Path&gt;" d="M16,13v3.5h6V13Zm4,2H18V14h2Z"/>
+  </g>
+</svg>

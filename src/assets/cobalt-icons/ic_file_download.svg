@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill-rule:evenodd;opacity:0.5;}.cls-2{fill:#fff;}.cls-3{fill:none;}</style>
+  </defs>
+  <title>ic_file_download</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" class="cls-1"
+            d="M12,21.52A9.52,9.52,0,1,1,21.52,12,9.53,9.53,0,0,1,12,21.52Z"/>
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-2"
+            d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18.4A8.4,8.4,0,1,1,20.4,12,8.4,8.4,0,0,1,12,20.4Z"/>
+    </g>
+    <g id="_Group_3" data-name="&lt;Group&gt;">
+      <polygon id="_Path_2" data-name="&lt;Path&gt;" class="cls-2"
+               points="15.5 10 12 14 8.5 10 10.5 10 10.5 6 13.5 6 13.5 10 15.5 10"/>
+      <rect id="_Path_3" data-name="&lt;Path&gt;" class="cls-2" x="7" y="15" width="10" height="1"/>
+    </g>
+    <rect id="_Path_4" data-name="&lt;Path&gt;" class="cls-3" width="24" height="24"/>
+  </g>
+</svg>

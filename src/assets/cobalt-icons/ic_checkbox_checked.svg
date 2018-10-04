@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.5;}</style>
+  </defs>
+  <title>ic_checkbox_checked</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+  </g>
+  <path d="M3,3V21H21V3Zm7.28,13.93-.14-.14L9.92,17,5.75,13.06l2.11-2,2.32,2.2,7.26-6.89,2,1.92Z"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_favorite_off</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <path
+      d="M12,4.76l2.22,4.79.26.55h5.18L16.27,14l-.29.34.07.45.85,5-4.46-2.35L12,17.18l-.44.23L7.1,19.76l.85-5L8,14.34,7.73,14,4.34,10.1H9.52l.26-.55L12,4.76M12,2.5,8.92,9.15H2.26L7,14.63,5.84,21.5,12,18.25l6.16,3.25L17,14.63l4.75-5.48H15.08L12,2.5Z"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.75;}</style>
+  </defs>
+  <title>ic_mute_off</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+    <path
+      d="M18,11v1c0,3-2,5-6,5s-6-2-6-5V11H4.5v1c0,3.54,1.84,5.51,5.5,6.29V19h1v1.5H8V22h8V20.5H13V19h1v-.71c3.66-.78,5.5-2.75,5.5-6.29V11Z"/>
+    <path d="M12,15a4,4,0,0,0,4-4V6A4,4,0,1,0,8,6v5A4,4,0,0,0,12,15Z"/>
+  </g>
+</svg>

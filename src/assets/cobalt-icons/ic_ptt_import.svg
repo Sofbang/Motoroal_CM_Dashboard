@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_ptt_import</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+      <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+      <rect x="1" y="13" width="1" height="4"/>
+      <path
+        d="M10.48,16H4V15h7v.47l2-2.05V11l1-1V7L13,6V5.5a.45.45,0,0,0-.5-.5H12a1,1,0,0,0-1-1H10A1,1,0,0,0,9,5H6V1A.91.91,0,0,0,5,0,.91.91,0,0,0,4,1V5H3C2.68,5,2,6,2,6L1,7v3l1,1v1H3v6H2v4c0,1,1,1,1,1a1,1,0,0,0,1,1H11a1,1,0,0,0,1-1,1,1,0,0,0,1-1V20.58L9.5,17ZM4,11h7v1H4Zm0,2h7v1H4Z"/>
+      <polygon points="23 16 15.5 16 18.11 13.25 16.89 12 12 17 16.89 22 18.11 20.75 15.5 18 23 18 23 16"/>
+    </g>
+  </g>
+</svg>

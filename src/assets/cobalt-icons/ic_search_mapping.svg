@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_search_mapping</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="32" height="32"/>
+    <path
+      d="M29,26.82l-7.94-7.94A9.92,9.92,0,0,0,23,13,10,10,0,0,0,12.93,3,9.92,9.92,0,0,0,3,13a9.92,9.92,0,0,0,9.93,10,10.11,10.11,0,0,0,5.95-1.94L26.82,29ZM5.55,13a7.39,7.39,0,1,1,7.38,7.33A7.36,7.36,0,0,1,5.55,13Z"/>
+  </g>
+</svg>

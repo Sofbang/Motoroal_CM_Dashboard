@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-2{opacity:0.75;}</style>
+  </defs>
+  <title>ic_smartphone</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M0,0V24H24V0Z"/>
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-2" width="24" height="24"/>
+    <path
+      d="M17,1H7A2,2,0,0,0,5,3V21a2,2,0,0,0,2,2H17a2,2,0,0,0,2-2V3A2,2,0,0,0,17,1ZM8,2h8V3H8Zm8,20H8V20h8Zm1-3H7V4H17Z"/>
+  </g>
+</svg>

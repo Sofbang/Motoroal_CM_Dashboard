@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.75;}</style>
+  </defs>
+  <title>ic_trash</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <polygon points="15 3 15 2 9 2 9 3 4 3 4 5 20 5 20 3 15 3"/>
+    <path
+      d="M17.5,18h-2L16,6H13V19H11V6H8l.5,12h-2L5.9,6H4l.75,13.39A2.62,2.62,0,0,0,7.36,22h9.28a2.62,2.62,0,0,0,2.61-2.61L20,6H18.1Z"/>
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="24" height="24"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:#231f20;}</style>
+  </defs>
+  <title>ic_rotate</title>
+  <path class="cls-1" d="M11.5,2H2V22H13V2Zm0,18.5h-8V3.5h8Z"/>
+  <path class="cls-1" d="M14,22h8V12H14v1.5h6.5v7H14Z"/>
+  <polygon points="7.5 17.5 6 16 5 17 5 19 10 19 10 18 9 16.95 7.5 17.5"/>
+  <polygon points="19 11 16 7 22 7 19 11"/>
+  <path d="M20,7V4.44A1.44,1.44,0,0,0,18.56,3H14V5h4V7"/>
+</svg>

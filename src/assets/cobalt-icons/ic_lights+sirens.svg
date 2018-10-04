@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_lights+sirens</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="4" y="18" width="16" height="3"/>
+      <path
+        d="M18,5.17A2.11,2.11,0,0,0,16,3H8.05A2.11,2.11,0,0,0,6,5.17L5,17H19ZM12,15V5h3.92a.25.25,0,0,1,.06.17v.15L16.85,15Z"/>
+    </g>
+  </g>
+</svg>

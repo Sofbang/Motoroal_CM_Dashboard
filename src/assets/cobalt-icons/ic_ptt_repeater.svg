@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;opacity:0.2;}</style>
+  </defs>
+  <title>ic_ptt_repeater</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <rect x="18" y="2" width="4" height="20"/>
+      </g>
+      <polygon id="_Path_" data-name="&lt;Path&gt;" points="11 22 14 17 17 22 11 22"/>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <polyline points="8 10 8 14 12 14 12 16.5 16 12 12 7.5 12 10"/>
+      </g>
+      <rect id="_Path_2" data-name="&lt;Path&gt;" x="2" y="2" width="4" height="20"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_attachment_video</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <polygon id="_Path_" data-name="&lt;Path&gt;" points="8 7 17 12 8 17 8 7"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M2,2V22H22V2ZM20.5,20.5H3.5V3.5h17Z"/>
+    </g>
+  </g>
+</svg>

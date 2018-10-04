@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_ptt_scan</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path
+      d="M23,18.5,15,14v3H7l6-4.67c4-3.29,8.37-6.92,8.37-7.66a1.77,1.77,0,0,0-.77-1.52A1,1,0,0,0,20.11,3H2.47a1.5,1.5,0,0,0,0,3h12.6L1.77,17.1l0,0a1.38,1.38,0,0,0-.54.62,1.93,1.93,0,0,0-.21.83A1.44,1.44,0,0,0,2.47,20H15v3Z"/>
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+  </g>
+</svg>

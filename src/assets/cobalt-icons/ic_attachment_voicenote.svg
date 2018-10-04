@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>ic_attachment_voicenote</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="24" height="24"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M2,2V22H22V2ZM20.5,20.5H3.5V3.5h17Z"/>
+    </g>
+    <path
+      d="M16,11v1.5c0,2.12-1.2,3-4,3s-4-.88-4-3V11H7v2c0,2.48,1,2.85,3.6,3.4V17H11v1H9v1h6V18H13V17h.4v-.6C16,15.85,17,15.48,17,13V11Z"/>
+    <path
+      d="M12,14a2.88,2.88,0,0,0,3-2.77V7.77A2.88,2.88,0,0,0,12,5,2.85,2.85,0,0,0,9.05,7.77v3.46A2.85,2.85,0,0,0,12,14Z"/>
+  </g>
+</svg>
