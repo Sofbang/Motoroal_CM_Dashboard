@@ -30,7 +30,7 @@ export class AppComponent {
   public dropdownSettings = {};
   public dropdownListContractType = [];
   constructor(private _demoService: DemoService) { }
-
+public Date= Date.now(); 
 
   public getData() {
     return new Promise((resolve, reject) => {
@@ -102,6 +102,7 @@ export class AppComponent {
             array.push({ 'item_id': this.territories[i].territory, 'item_text': this.territories[i].territory });
             count++;
           }
+          array.sort();
           console.log(array);
           resolve(array);
         }
@@ -112,6 +113,30 @@ export class AppComponent {
     })
   }
 
+public batchtime:any;
+  //get the last batch time
+  public getBatchTime() {
+    return new Promise((resolve, reject) => {
+      this._demoService.getBatchTime().subscribe(data => {
+        this.batchtime = data;
+        console.log("territories" + this.batchtime)
+      }, err => console.error(err),
+        // the third argument is a function which runs on completion
+        () => {
+          let finaltime = [];
+          let count = 0;
+          for (let i in this.batchtime) {
+           finaltime=this.batchtime[i].max
+          }
+          console.log(finaltime);
+          resolve(finaltime);
+        }
+      )
+    }).catch((error) => {
+      reject(error);
+      console.log('errorin getting data :', error);
+    })
+  }
 
   public getCaseStatusTerritoriesData() {
     return new Promise((resolve, reject) => {
@@ -127,6 +152,7 @@ export class AppComponent {
             array.push({ 'item_id': this.caseStatusTerritories[i].territory, 'item_text': this.caseStatusTerritories[i].territory });
             count++;
           }
+          array.sort();
           console.log(array);
           resolve(array);
         }
@@ -164,7 +190,17 @@ export class AppComponent {
       }
     }
   }
+public lastBatchTime:any;
+
   ngOnInit() {
+
+  
+    this.getBatchTime().then((res: any) => {
+      console.log("batchtime finally" + res)
+    this.lastBatchTime=res;
+
+    });
+
     this.getData().then((res: any) => {
       console.log(res)
       this.columnChartData = {
@@ -174,7 +210,8 @@ export class AppComponent {
           title: 'Contract State', width: 900, height: 600, legend: { position: 'bottom' },
           series: {
             0: { color: '#c40bb9' }
-          }
+          },
+          tooltip: { isHtml: true }
         }
       };
     });
@@ -197,7 +234,7 @@ export class AppComponent {
         chartType: 'BarChart',
         dataTable: res,
         options: {
-          title: 'Case State', width: 900, height: 500, legend: { position: 'bottom', color: '#f13561' },
+          title: 'Case Status', width: 900, height: 500, legend: { position: 'bottom', color: '#f13561' },
           series: {
             0: { color: '#f13561' }
           }
@@ -217,21 +254,12 @@ export class AppComponent {
       { item_id: 5, item_text: 'InProgress' }
     ];
     this.dropdownListCaseType = [
-      { item_id: 1, item_text: 'Case Type 1' },
-      { item_id: 2, item_text: 'Maintenance' },
-      { item_id: 3, item_text: 'Case Type 3' },
-      { item_id: 5, item_text: 'Case Type 4' },
-      { item_id: 2, item_text: 'Case Type 5' },
-      { item_id: 3, item_text: 'Case Type 6' },
+      { item_id: 2, item_text: 'Maintenance' }
+
     ];
 
     this.dropdownListContractType = [
-      { item_id: 1, item_text: 'Contract Type 1' },
-      { item_id: 2, item_text: 'Maintenance' },
-      { item_id: 3, item_text: 'Contract Type 3' },
-      { item_id: 4, item_text: 'Contract Type 4' },
-      { item_id: 5, item_text: 'Contract Type 5' },
-      { item_id: 6, item_text: 'Contract Type 6' },
+      { item_id: 2, item_text: 'Maintenance' }
     ];
 
     this.selectedItems = [
@@ -243,8 +271,9 @@ export class AppComponent {
       textField: 'item_text',
       selectAllText: 'Select All',
       unSelectAllText: 'UnSelect All',
-      itemsShowLimit: 3,
-      allowSearchFilter: true
+      itemsShowLimit: 6,
+      allowSearchFilter: true,
+      dir:'asc'
     };
 
 
@@ -371,7 +400,7 @@ public columnChartData2: any = {
     ['Apr', 20, 13, '#9D0CFF'],
     ['May', 48, 48, '#9D0CFF'],
     ['Jun', 56, 56, '#9D0CFF'],
-    ['July', 0, 0, '#9D0CFF'],
+    ['July', 0, 15, '#9D0CFF'],
     ['Aug', 0, 0, '#9D0CFF'],
     ['Sep', 0, 0, '#9D0CFF'],
     ['Oct', 0, 0, '#9D0CFF'],

@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng build && node app.js",
+    "start": "ng build && node app.js ",
     "build": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile --bail"
   },
   "private": true,
@@ -18,9 +18,11 @@
     "@angular/platform-browser": "^5.2.11",
     "@angular/platform-browser-dynamic": "^5.2.11",
     "@angular/router": "^5.2.11",
+    "angular-font-awesome": "^3.1.2",
     "body-parser": "^1.18.2",
     "core-js": "^2.5.7",
     "express": "^4.16.3",
+    "font-awesome": "^4.7.0",
     "ng-multiselect-dropdown": "^0.2.1",
     "ng2-google-charts": "^3.4.0",
     "pg": "^6.4.2",

@@ -33,7 +33,7 @@ app.get('/cm_dashboard_api/v1/contract_state', function (req, res) {
     console.log("territory" + territory);
     if (territory == "all") {
         //     console.log('true');
-        var postgresquery = "select status , sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(contract_number) as contractPerStatus, TERRITORY from ( select contract_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.contract_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from ebs_contracts_state_master A1 where A1.contract_number = A2.contract_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from ebs_contracts_state_master A2 order by contract_number, sts_changed_on ) resultset group by contract_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 WHERE STATUS NOt In ('SIGNED', 'ACTIVE') GROUP BY STATUS"
+        var postgresquery = "select status , sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(contract_number) as contractPerStatus, TERRITORY from ( select contract_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.contract_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from ebs_contracts_state_master A1 where A1.contract_number = A2.contract_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from ebs_contracts_state_master A2 order by contract_number, sts_changed_on ) resultset group by contract_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 WHERE STATUS In ('GENERATE_PO','PO_ISSUED', 'QA_HOLD','MODIFY_PO')  GROUP BY STATUS ;"
     } else {
         // Convert to array
         var arr = territory.split(',');
@@ -44,7 +44,7 @@ app.get('/cm_dashboard_api/v1/contract_state', function (req, res) {
         // Convert back to string
         territory = arr.join(', ');
 
-        var postgresquery = "select status , sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(contract_number) as contractPerStatus, TERRITORY from ( select contract_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.contract_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from ebs_contracts_state_master A1 where A1.contract_number = A2.contract_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from ebs_contracts_state_master A2 order by contract_number, sts_changed_on ) resultset group by contract_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 WHERE STATUS NOt In ('SIGNED', 'ACTIVE') and TERRITORY IN (" + territory + ") GROUP BY STATUS"
+        var postgresquery = "select status , sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(contract_number) as contractPerStatus, TERRITORY from ( select contract_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.contract_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from ebs_contracts_state_master A1 where A1.contract_number = A2.contract_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from ebs_contracts_state_master A2 order by contract_number, sts_changed_on ) resultset group by contract_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 WHERE STATUS In ('GENERATE_PO','PO_ISSUED', 'QA_HOLD','MODIFY_PO')  and TERRITORY IN (" + territory + ") GROUP BY STATUS"
     }
     //  console.log("query"+postgresquery);
     db.any(postgresquery)
@@ -64,7 +64,7 @@ app.get('/cm_dashboard_api/v1/territories', function (req, res) {
 
     const results = [];
 
-    db.any('Select distinct(TERRITORY) from ebs_contracts_state_master')
+    db.any("select distinct(territory) from ebs_contracts_state_master order by territory  asc")
         .then(function (data) {
             //   console.log(data); 
 
@@ -85,7 +85,7 @@ app.get('/cm_dashboard_api/v1/case_status', function (req, res) {
     console.log("territory" + territory);
     if (territory == "all") {
         //     console.log('true');
-        var postgresql="select status , sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(case_number) as contractPerStatus, TERRITORY from ( select case_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.case_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from sc_case_state_master A1 where A1.case_number = A2.case_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from sc_case_state_master A2 order by case_number, sts_changed_on ) resultset group by case_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 WHERE STATUS NOt In ('SIGNED', 'ACTIVE') GROUP BY STATUS ;";
+        var postgresql="select status ,CASE WHEN status = 'Open' THEN '0'            WHEN status = 'Insufficient Data' THEN '1'            WHEN status = 'InProg' THEN '2'            WHEN status = 'InProg Acknow' THEN '3'            when status='InProg Awt 3PS' Then '4'            WHEN status ='InProg Awt Credit' Then '5'            When status ='InProg Awt Resource' then '6'            ELSE 'OTHER' END AS status_order, sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(case_number) as contractPerStatus, TERRITORY from ( select case_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.case_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from sc_case_state_master A1 where A1.case_number = A2.case_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from sc_case_state_master A2 order by case_number, sts_changed_on ) resultset group by case_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 Group by status ORDER BY status_order  ;";
     } else {
         // Convert to array
         var arr = territory.split(',');
@@ -96,7 +96,7 @@ app.get('/cm_dashboard_api/v1/case_status', function (req, res) {
         // Convert back to string
         territory = arr.join(', ');
 
-        var postgresql="select status , sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(case_number) as contractPerStatus, TERRITORY from ( select case_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.case_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from sc_case_state_master A1 where A1.case_number = A2.case_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from sc_case_state_master A2 order by case_number, sts_changed_on ) resultset group by case_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3 WHERE STATUS NOt In ('SIGNED', 'ACTIVE') and TERRITORY IN ("  + territory + ") GROUP BY STATUS"
+        var postgresql="select status ,CASE WHEN status = 'Open' THEN '0'            WHEN status = 'Insufficient Data' THEN '1'            WHEN status = 'InProg' THEN '2'            WHEN status = 'InProg Acknow' THEN '3'            when status='InProg Awt 3PS' Then '4'            WHEN status ='InProg Awt Credit' Then '5'            When status ='InProg Awt Resource' then '6'            ELSE 'OTHER' END AS status_order, sum (mediandays::INTEGER) as mediandays, sum(contractperstatus) as contractscount from ( select to_status as Status, median(DaysInStatus) as MedianDays, count(case_number) as contractPerStatus, TERRITORY from ( select case_number, to_status, min(sts_changed_on), DateMoved, to_number(trim(to_char(DateMoved - min(sts_changed_on),'DD')),'99G999D9S') as DaysInStatus, TERRITORY from ( select A2.case_number, A2.to_status, A2.sts_changed_on,TERRITORY, coalesce( ( select max(A1.sts_changed_on) from sc_case_state_master A1 where A1.case_number = A2.case_number and A1.from_STATUS = A2.to_status), current_date ) as DateMoved from sc_case_state_master A2 order by case_number, sts_changed_on ) resultset group by case_number, to_status, DateMoved, TERRITORY )R2 group by to_status, TERRITORY ORDER BY TO_STATUS) R3   TERRITORY IN ("  + territory + ") Group by status ORDER BY status_order"
     }
     //  console.log("query"+postgresquery);
     const results = [];
@@ -120,7 +120,7 @@ app.get('/cm_dashboard_api/v1/case_territories', function (req, res) {
 
     const results = [];
 
-    db.any('Select distinct(TERRITORY) from sc_case_state_master')
+    db.any("Select distinct(TERRITORY) from sc_case_state_master  order by territory asc")
         .then(function (data) {
             //   console.log(data); 
 
@@ -130,7 +130,24 @@ app.get('/cm_dashboard_api/v1/case_territories', function (req, res) {
             console.log('ERROR:', error)
 
         })
+});
 
+//api to get the last update time
+
+app.get('/cm_dashboard_api/v1/batchtime', function (req, res) {
+
+    const results = [];
+
+    db.any('select max(last_run_date) from audit_log')
+        .then(function (data) {
+             console.log(data); 
+
+            return res.send(data);
+        })
+        .catch(function (error) {
+            console.log('ERROR:', error)
+
+        })
 });
 
 // catch 404 and forward to error handler
@@ -142,6 +159,6 @@ app.use(function (req, res, next) {
 
 // HTTP listener
 app.listen(3100, function () {
-    console.log('Example listening on port 3000!');
+    console.log('Example listening on port 3100!');
 });
 module.exports = app;

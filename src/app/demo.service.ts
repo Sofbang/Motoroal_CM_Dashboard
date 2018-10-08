@@ -34,6 +34,11 @@ export class DemoService {
     getCaseStatusTerritories() {
         return this.http.get('cm_dashboard_api/v1/case_territories');
     }
+
+    getBatchTime() {
+        return this.http.get('cm_dashboard_api/v1/batchtime');
+    }
+
     }
 
 

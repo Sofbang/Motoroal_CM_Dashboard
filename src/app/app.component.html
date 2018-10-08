@@ -1,32 +1,36 @@
-<h2 style="margin:2%">Contract Management Dashboard</h2>
-<h4 style="color:#BBBDBF;margin:2%">As of Sept 28 at 2:05pm: Viewing as Shelly Rhoads</h4>
+<blockquote class="blockquote">
+    <h3 class="mb-0">
+        <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
+          Contracts Management Dashboard
+    </h3>
+   
+      As of {{lastBatchTime|date:'medium'}}
+
+</blockquote>
+
+
+
+<!-- 
+<h3 style="margin-left:2%;margin-top:2%">Contract Management Dashboard</h3>
+
+<h5 style="color:#BBBDBF;margin:2%">As of {{lastBatchTime|date:'medium'}}</h5> -->
 <div class="form-group">
     <div class="row" style="border: 1px solid #E7E9EA;margin:2%">
 
         <div class="col-md-8" style="border-top: 1px solid #E7E9EA;">
             <google-chart #cchart [data]="columnChartData" style="margin-left: 2%"></google-chart>
         </div>
-        <div class="col-md-4" style="background-color: #F6F7F8;">
-            <label for="options" style="display: block;font-size: 18px;margin-top:5%">Territory</label>
+        <div class="col-md-4" style="background-color: #F6F7F8;height: 622px">
+            <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Territory</label>
             <ng-multiselect-dropdown [placeholder]="'Select Territory'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
                 (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)" (onDeSelect)="onItemDeSelect($event)" (onDeSelectAll)="onDeSelectAll($event)" >
             </ng-multiselect-dropdown>
             <hr>
 
-            <label for="options" style="display: block;font-size: 18px;margin-top:5%">Contract Type</label>
+            <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Contract Type</label>
             <ng-multiselect-dropdown [placeholder]="'Select Contract Type'" [data]="dropdownListContractType" [settings]="dropdownSettings"
             [(ngModel)]="selectedItems" >
             </ng-multiselect-dropdown>
-            <!-- <div class="col-md-12">
-                <label for="options" style="display: block;font-size: 18px;">Case Type:</label>
-                <div class="checkbox-column" style=" display:inline-block;" *ngFor="let option of options">
-                    <label style=" font-size: 15px;">
-                        <input type="checkbox" name="options" style="margin: 15px 15px 25px 12px;width: 13px;
-                 height: 13px;"
-                            value="{{option.value}}" />
-                        {{option.name}}
-                    </label>
-                </div> -->
             </div>
 
 
@@ -37,29 +41,16 @@
         <div class="col-md-8" style="border-top: 1px solid #E7E9EA;">
             <google-chart [data]="barChartData2" style="margin-left: 2%" ></google-chart>
         </div>
-        <div class="col-md-4" style="background-color: #F6F7F8;">
-            <label for="options" style="display: block;font-size: 18px;margin-top:5%">Territory</label>
+        <div class="col-md-4" style="background-color: #F6F7F8;height: 622px">
+            <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Territory</label>
             <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListCaseStatusTerritory" [settings]="dropdownSettings"
                 (onSelect)="onCaseSelect($event)" (onSelectAll)="onCaseSelectAll($event)" (onDeSelect)="onCaseDeSelect($event)" (onDeSelectAll)="onCaseDeSelectAll($event)">
             </ng-multiselect-dropdown>
             <hr>
-            <label for="options" style="display: block;font-size: 18px;margin-top:5%">Case Type</label>
+            <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Case Type</label>
             <ng-multiselect-dropdown [placeholder]="'Select Contract Type'" [data]="dropdownListCaseType" [settings]="dropdownSettings"
             [(ngModel)]="selectedItems" >
             </ng-multiselect-dropdown>
-            
-            <!-- <div class="col-md-12">
-                <label for="options" style="display: block;font-size: 18px;">Case Type:</label>
-                <div class="checkbox-column" style=" display:inline-block;" *ngFor="let option of options">
-                    <label style=" font-size: 15px;">
-                        <input type="checkbox" name="options" style="margin: 15px 15px 25px 12px;width: 13px;
-                   height: 13px;"
-                            value="{{option.value}}" />
-                        {{option.name}}
-                    </label>
-                </div>
-            </div> -->
-
 
         </div>
     </div>
@@ -68,22 +59,17 @@
             <google-chart [data]="columnChartData2" style="margin-left: 2%" ></google-chart>
         </div>
         <div class="col-md-4" style="background-color: #F6F7F8;">
-            <label for="options" style="display: block;font-size: 18px;margin-top:5%">Territory</label>
-            <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
+            <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Territory</label>
+            <ng-multiselect-dropdown [placeholder]="'Select Territory'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
                 (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
             </ng-multiselect-dropdown>
 
             <hr>
             <div class="col-md-12">
-                <label for="options" style="display: block;font-size: 18px;">Case Type:</label>
-                <div class="checkbox-column" style=" display:inline-block;" *ngFor="let option of options">
-                    <label style=" font-size: 15px;">
-                        <input type="checkbox" name="options" style="margin: 15px 15px 25px 12px;width: 13px;
-                   height: 13px;"
-                            value="{{option.value}}" />
-                        {{option.name}}
-                    </label>
-                </div>
+            <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Contract Type</label>
+            <ng-multiselect-dropdown [placeholder]="'Select Contract Type'" [data]="dropdownListContractType" [settings]="dropdownSettings"
+            [(ngModel)]="selectedItems" >
+            </ng-multiselect-dropdown>
             </div>
 
 
@@ -96,7 +82,7 @@
             <h4><b>Case Status/Aging Illustration</b></h4>
             <div class="row">
                 <div class="col-md-5">
-                    <label for="options" style="display: block;font-size: 18px;margin-top:5%">Status</label>
+                    <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Status</label>
                     <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListStatus" [settings]="dropdownSettings"
                         (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
                     </ng-multiselect-dropdown>
@@ -104,14 +90,14 @@
             </div>
             <div class="row">
                 <div class="col-md-5">
-                    <label for="options" style="display: block;font-size: 18px;margin-top:5%">Territory</label>
-                    <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
+                    <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Territory</label>
+                    <ng-multiselect-dropdown [placeholder]="'Select Territory'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
                         (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
                     </ng-multiselect-dropdown>
                 </div>
                 <div class="col-md-5">
-                    <label for="options" style="display: block;font-size: 18px;margin-top:5%">Case Type</label>
-                    <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListCaseType" [settings]="dropdownSettings"
+                    <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Case Type</label>
+                    <ng-multiselect-dropdown [placeholder]="'Select Case Type'" [data]="dropdownListCaseType" [settings]="dropdownSettings"
                         (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
                     </ng-multiselect-dropdown>
                 </div>
@@ -123,7 +109,7 @@
             <h4><b>Case Backlog by Delinquency</b></h4>
             <div class="row">
                 <div class="col-md-5">
-                    <label for="options" style="display: block;font-size: 18px;margin-top:5%">Status</label>
+                    <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Status</label>
                     <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListStatus" [settings]="dropdownSettings"
                         (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
                     </ng-multiselect-dropdown>
@@ -131,14 +117,14 @@
             </div>
             <div class="row">
                 <div class="col-md-5">
-                    <label for="options" style="display: block;font-size: 18px;margin-top:5%">Territory</label>
-                    <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
+                    <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Territory</label>
+                    <ng-multiselect-dropdown [placeholder]="'Select Territory'" [data]="dropdownListTerritory" [settings]="dropdownSettings"
                         (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
                     </ng-multiselect-dropdown>
                 </div>
                 <div class="col-md-5">
-                    <label for="options" style="display: block;font-size: 18px;margin-top:5%">Case Type</label>
-                    <ng-multiselect-dropdown [placeholder]="'Select Status'" [data]="dropdownListCaseType" [settings]="dropdownSettings"
+                    <label for="options" style="display: block;font-size: 18px;margin-top:5%;font-weight: 200;">Case Type</label>
+                    <ng-multiselect-dropdown [placeholder]="'Select Case Type'" [data]="dropdownListCaseType" [settings]="dropdownSettings"
                         (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)">
                     </ng-multiselect-dropdown>
                 </div>
