@@ -88,7 +88,7 @@ public Date= Date.now();
     })
   }
 
-  public getTerritoriesData() {
+public getTerritoriesData() {
     return new Promise((resolve, reject) => {
       this._demoService.getTerritories().subscribe(data => {
         this.territories = data;
@@ -98,11 +98,16 @@ public Date= Date.now();
         () => {
           let array = [];
           let count = 0;
+          let otherTerritory='';
           for (let i in this.territories) {
+            if (this.territories[i].territory == 'OTHER'){
+              console.log("The other territory "+ this.territories[i].territory )
+              otherTerritory=this.territories[i].territory 
+            }else{
             array.push({ 'item_id': this.territories[i].territory, 'item_text': this.territories[i].territory });
-            count++;
+            }
           }
-          array.sort();
+          array.push(otherTerritory);
           console.log(array);
           resolve(array);
         }
@@ -112,6 +117,7 @@ public Date= Date.now();
       console.log('errorin getting data :', error);
     })
   }
+
 
 public batchtime:any;
   //get the last batch time
@@ -138,7 +144,7 @@ public batchtime:any;
     })
   }
 
-  public getCaseStatusTerritoriesData() {
+   public getCaseStatusTerritoriesData() {
     return new Promise((resolve, reject) => {
       this._demoService.getCaseStatusTerritories().subscribe(data => {
         this.caseStatusTerritories = data;
@@ -148,11 +154,16 @@ public batchtime:any;
         () => {
           let array = [];
           let count = 0;
+          let otherTerritory='';
           for (let i in this.caseStatusTerritories) {
+            if (this.caseStatusTerritories[i].territory == 'OTHER'){
+              console.log("The other territory "+ this.caseStatusTerritories[i].territory )
+              otherTerritory=this.caseStatusTerritories[i].territory 
+            }else{
             array.push({ 'item_id': this.caseStatusTerritories[i].territory, 'item_text': this.caseStatusTerritories[i].territory });
-            count++;
+            }
           }
-          array.sort();
+          array.push(otherTerritory);
           console.log(array);
           resolve(array);
         }
